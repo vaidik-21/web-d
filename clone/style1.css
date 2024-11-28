@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+background-image: url("./image/Netflix\ India\ –\ Watch\ TV\ Shows\ Online\,\ Watch\ Movies\ Online_files/bg.jpg");
+height: 80vh;
+background-position: center center;
+background-repeat: no-repeat;
+background-size: max(1200px, 100vw);
+position: relative;
+
+}
+
+.main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.7;
+     background-color: black; 
+    position: absolute;
+    top: 0;
+}
+nav{
+    max-width: 60vw;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+}
+nav img{
+    color: red;
+    width: 114px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    z-index: 50;
+    opacity: 1;
+}
+.email{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    height: 23px;
+}
+.one{
+    height: 23px;
+    width: 50%;
+}
+.two{
+    width: 50%;
+}
